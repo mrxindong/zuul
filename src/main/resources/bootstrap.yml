@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: service-zuul
+#  cloud:
+#    config:
+#      uri: http://localhost:8769
+#      fail-fast: true
+#  profiles:
+#    active: dev
+
+ribbon:
+  eureka:
+   enabled: false
+server:
+   port: 8080
+
+
+
+#management:
+#  security:
+#    enabled: false
+#zuul:
+#  prefix: v1
+
